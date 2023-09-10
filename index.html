@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Quiz Application</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <body background="1.jpg">
+      <script src="script.js"></script>
+  <h1>Welcome to the Quiz!</h1>
+  <div id="quiz-container">
+    <h2>Question 1:</h2>
+    <p>What is the capital of France?</p>
+    <input type="radio" name="q1" value="a">a) Paris<br>
+    <input type="radio" name="q1" value="b">b) London<br>
+    <input type="radio" name="q1" value="c">c) Rome<br>
+    <input type="radio" name="q1" value="d">d) Madrid<br>
+    
+    <h2>Question 2:</h2>
+    <p>What is the largest planet in our solar system?</p>
+    <input type="radio" name="q2" value="a">a) Jupiter<br>
+    <input type="radio" name="q2" value="b">b) Earth<br>
+    <input type="radio" name="q2" value="c">c) Mars<br>
+    <input type="radio" name="q2" value="d">d) Saturn<br>
+    
+    <h2>Question 3:</h2>
+    <p>What is the chemical symbol for water?</p>
+    <input type="radio" name="q3" value="a">a)  H2O<br>
+    <input type="radio" name="q3" value="b">b) CO2<br>
+    <input type="radio" name="q3" value="c">c) O2<br>
+    <input type="radio" name="q3" value="d">d) CH4<br>
+    <h2>Question 4:</h2>
+    <p>Which scientist is known for the theory of relativity?</p>
+    <input type="radio" name="q4" value="a">a) Isaac Newton<br>
+    <input type="radio" name="q4" value="b">b) Galileo Galilei<br>
+    <input type="radio" name="q4" value="c">c) Albert Einstein<br>
+    <input type="radio" name="q4" value="d">d)  Charles Darwin<br>
+    <h2>Question 5:</h2>
+    <p>What is the largest mammal in the world?</p>
+    <input type="radio" name="q5" value="a">a) Elephant<br>
+    <input type="radio" name="q5" value="b">b) Blue Whale<br>
+    <input type="radio" name="q5" value="c">c) Giraffe<br>
+    <input type="radio" name="q5" value="d">d) Dolphin<br>
+    <h2>Question 6:</h2>
+    <p>Which gas do plants absorb from the atmosphere during photosynthesis?</p>
+    <input type="radio" name="q6" value="a">a) Oxygen<br>
+    <input type="radio" name="q6" value="b">b) Carbon dioxide<br>
+    <input type="radio" name="q6" value="c">c) Hydrogen<br>
+    <input type="radio" name="q6" value="d">d)Nitrogen<br>
+    <h2>Question 7:</h2>
+    <p>Which planet is known as the "Red Planet"?</p>
+    <input type="radio" name="q7" value="a">a) Venus<br>
+    <input type="radio" name="q7" value="b">b) Mars<br>
+    <input type="radio" name="q7" value="c">c) Jupiter<br>
+    <input type="radio" name="q7" value="d">d) Saturn<br>
+    <h2>Question 8:</h2>
+    <p>What is the capital of Australia?</p>
+    <input type="radio" name="q8" value="a">a) London<br>
+    <input type="radio" name="q8" value="b">b) Madrid<br>
+    <input type="radio" name="q8" value="c">c) Canberra<br>
+    <input type="radio" name="q8" value="d">d) Berlin<br>
+    <h2>Question 9:</h2>
+    <p>Which gas makes up the majority of Earth's atmosphere?</p>
+    <input type="radio" name="q9" value="a">a) Oxygen<br>
+    <input type="radio" name="q9" value="b">b) Carbon dioxide<br>
+    <input type="radio" name="q9" value="c">c) Hydrogen<br>
+    <input type="radio" name="q9" value="d">d) Nitrogen<br>
+    <h2>Question 10:</h2>
+    <p>Which continent is known as the "Land Down Under"?</p>
+    <input type="radio" name="q10" value="a">a) Europe<br>
+    <input type="radio" name="q10" value="b">b) Africa<br>
+    <input type="radio" name="q10" value="c">c) Asia<br>
+    <input type="radio" name="q10" value="d">d) Australia<br>
+    <br>
+    <button onclick="calculateScore()">Submit</button>
+  </div>
+  
+  <div id="result-container" style="display: none;">
+    <h2>Your Score:</h2>
+    <p id="score"></p>
+  </div>
+</body>
+</html>
+
