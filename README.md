@@ -10,6 +10,7 @@ Welcome to the Quiz Application repository! This application is designed to offe
 - A user-friendly interface that's easy to navigate.
 - Customizable themes and styles.
 
-  #DEMO LINK
+  # Demo Link
+  https://uharika77.github.io/Quiz-application/
   
 
